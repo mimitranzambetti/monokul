@@ -91,7 +91,7 @@ h3{
 	width: 90%;
 	max-width: 800px;
 	margin: 30px auto 60px auto;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 /* NAVIGATION & FOOTER */
@@ -198,6 +198,9 @@ footer {
 .splash{
     color: #231f20;
     opacity: 0.6;
+    background: url('../img/landing.png') no-repeat;
+    background-position: 400px 150px;
+    background-size: 50%:
 }
 
 .home {
@@ -541,7 +544,8 @@ a, a:visited {
 	}
     
     .chevron>i {
-	margin-bottom: 50px;
+        margin-top: 50px;
+	margin-bottom: 90px;
     }
     
 	h1 { font-size: 2em; }
