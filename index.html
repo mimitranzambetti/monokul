@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="Project-M" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="//" />
+        <meta property="og:description" content="TechLA Fellows is looking for exceptionally talented undergraduate students in computer science, design, and business to work as interns at budding startups in LA." />
+        <meta property="og:image" content="http://fellows.tech.la/img/techla-stacked.png" />
+        
+        <title>Project-M » Home</title>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+
+        
+        <script type="text/javascript" src="js/jquery.countdown.js"></script>
+        
+        
+        <!--Uh.... which version of jquery should I be calling...-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        
+        
+        <script src="js/typed.js-master/js/typed.js"></script>
+        <script>
+          $(function(){
+              $(".element").typed({
+                strings: ["What is our culture like?", "Are our new hires comfortable on their teams?", "How might we create a more inclusive organization?"],
+                typeSpeed: 8,
+                startDelay: 1000,
+                backspeed: 10,
+                backDelay: 2000
+                // if we want this to loop once, uncomment the code below.
+                // loop: true,
+                // loopCount: 2
+              });
+          });
+        </script>
+
+    <script>
+        $(document).ready(function (){
+            $("#chevron").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#chevron").offset().top
+                }, 800);
+            });
+        });
+    </script>
+        
+    </head>
+    
+    
+<body class="body">
+    
+<!--GET-M MODAL -->
+<div class="modal fade" id="get-modal" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <!-- Modal content-->
+        <div class="modal-style" class="modal-content">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <br>
+            <h1>Get Project-M</h1><br>
+            <p>E-mail <a href="mailto:hello@project-m.org" target="_top">hello@project-m.org</a> <br> and schedule your free consultation!</p>
+            <br>
+            <input type="submit" class="modal-button" data-dismiss="modal" value="Get in touch" onclick="location.href='mailto:hello@project-m.org';">
+            <br><br>
+        </div>
+    </div>
+</div>
+        
+<nav>
+<a href="index.html"><img class="logo" src="img/site-logos/project-m-logo.png"></a>
+<div class="navlinks">
+  <a href="about.html">Data Driven</a>
+  <a href="simple.html">Easy Setup</a>
+  <a class="get-button get">Get M</a>
+</div>
+</nav>
+        
+<script>
+    $(document).ready(function(){
+        $(".get-button").click(function(){
+            $("#get-modal").modal();
+        });
+    });
+</script>
+        
+<div class="splash">
+    <div class="home">
+        <h1><div class="element"></div></h1>
+        <p class="intro">We help sort through the noise in internal company communication so you can make data driven decisions about culture.</p>
+    </div>
+        <div class="chevron"><i class="fa fa-chevron-down" id="chevron"></i></div>
+</div>
+
+    <br style="clear:both;">
+
+    <div class="strip"> 
+    <div class="content" >
+        <h1>Cutting Edge Tech</h1>
+        <p>
+            
+        </p>
+        <div class="info"><p> hi</p></div>
+    </div>
+    </div>
+    <hr>
+    <div class="strip"> 
+    <div class="content" >
+        <h1>Meet Our Team</h1>
+        <p>
+            
+        </p>
+    </div>
+    </div>
+    
+<div class="bar"><div class="bluep"></div><div class="yellowp"></div><div class="darkbluep"></div></div>
+
+
+<footer>
+<div class="footer-container">
+  <div class="footer-content">
+      <div class="footer-nav">
+          <a href="people.html">Our Team</a><br>
+          <a href="https://medium.com/project-m">Blog-M</a><br>
+          <a href="privacy.html">Terms & Privacy</a><br>
+      </div>
+    <div class="media-links">
+    </div>
+  </div>
+</div>
+</footer>
+        
+    </body>
+</html>

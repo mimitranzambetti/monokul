@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        
+        <link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Project-M » Easy Setup</title>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        
+
+    </head>
+    <body>
+
+<!--GET-M MODAL -->
+<div class="modal fade" id="get-modal" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <!-- Modal content-->
+        <div class="modal-style" class="modal-content">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <br>
+            <h1>Get Project-M</h1><br>
+            <p>E-mail <a href="mailto:hello@project-m.org" target="_top">hello@project-m.org</a> <br> and schedule your free consultation!</p>
+            <br>
+            <input type="submit" class="modal-button" data-dismiss="modal" value="Get in touch" onclick="location.href='mailto:hello@project-m.org';">
+            <br><br>
+        </div>
+    </div>
+</div>
+        
+<nav>
+<a href="index.html"><img class="logo" src="img/site-logos/project-m-logo.png"></a>
+<div class="navlinks">
+  <a href="about.html">Data Driven</a>
+  <a href="simple.html">Easy Setup</a>
+  <a class="get-button get">Get M</a>
+</div>
+</nav>
+        
+<script>
+    $(document).ready(function(){
+        $(".get-button").click(function(){
+            $("#get-modal").modal();
+        });
+    });
+</script>
+        
+        
+        <div class="header yellow">
+          <div class="content">
+            <h1>Easy to Use</h1>
+          </div>
+        </div>
+        
+        <div class="bar"><div class="bluep"></div><div class="yellowp"></div><div class="darkbluep"></div></div>
+        
+
+        <div class="content">
+            <h1>Our Process</h1>
+            <p>Our process is a straightforward three steps. Curious about how monokul works in practice? Check out a few of <a> our case studies </a></p>
+            <br>
+            <div class="flex-content">
+                       
+            <div class="info card">
+                <p><span class="bold">Initial consultation</span><br>
+                <span class="quote">
+                Tell us what you’re interested in learning about your organization. Our product is flexible to your needs.
+                </span> 
+                </p>
+                <input type="submit" class="button" value="Schedule Consultation" onclick="location.href='mailto:hello@project-m.org';">
+                
+            </div>
+            
+            <div class="info card">
+                <p><span class="bold">Analyze messages</span><br>
+                <span class="quote">
+                From the consultation, we design and send a transparent algorithm that you can run offline on your own computers.
+                </span>
+                </p>
+                <input type="submit" class="button" value="Read about the tech" onclick="location.href='about.html';">
+            </div>
+            
+            <div class="info card">
+                <p><span class="bold">Receive results</span><br>
+                <span class="quote">
+                We return visualizations and actionable insights from the anonymized, privacy preserved data you send us.
+                </span>
+                </p>
+                <input type="submit" class="button" value="See Case Studies" onclick="location.href='about.html';">
+                <!--will link to medium blog-->
+            </div>
+            </div> 
+        </div>
+
+        <hr>
+        <div class="content">
+            <h1>Our Guarantee</h1>
+            <p>Whether you're on Slack, Hipchat, Mattermost, or your own company messaging platform, we should be able to help you run our specially designed algorithm on your own computers. If you're curious, you can learn more about <a href="privacy.html" target="_blank">our privacy procedures</a>.</p>
+            <br><br>
+            <div class="flex-content" style="width: 80%;">
+                <div><img class="logo" src='img/platform-logos/slack.svg'></div>
+                <div><img class="logo" src='img/platform-logos/hipchat.png'></div>
+                <div><img class="logo" src='img/platform-logos/mattermost.png'></div>
+            </div> 
+        </div>
+        
+<footer>
+<div class="footer-container">
+  <div class="footer-content">
+      <div class="footer-nav">
+          <a href="people.html">Our Team</a><br>
+          <a href="https://medium.com/project-m">Blog-M</a><br>
+          <a href="privacy.html">Terms & Privacy</a><br>
+      </div>
+    <div class="media-links">
+    </div>
+  </div>
+</div>
+</footer>
+        
+    </body>
+</html>
