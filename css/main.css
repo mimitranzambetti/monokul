@@ -25,7 +25,7 @@
 
 body {
 	margin: 0px;
-    min-width: 360px;
+    min-width: 340px;
 	background: #f8f8f8;
     background-size: 350vw;
 	font-family: 'Marion Regular';
@@ -196,20 +196,29 @@ footer {
 
 
 .splash{
-    color: #231f20;
-    opacity: 0.6;
-    background: url('../img/landing.png') no-repeat;
-    background-position: 400px 150px;
-    background-size: 50%:
+    color: #fafafa;
+    opacity: 0.8;
+    background-color: #1f7bb9;
+}
+
+.small-hide{
+    display:block;
 }
 
 .home {
 	width: 80%;
 	max-width: 800px;
-	height: 50vh;
+	height: 20vh;
 	margin: 30px;
+    
 }
 
+.float-image{
+    width: 100px;
+    float: left;
+    margin: 60px;
+    margin-top: -50px;
+}
 .element {
 	display: inline-block;
     font-family: 'Marion Bold';
@@ -427,7 +436,12 @@ input[type=submit]:hover {
 
 .info-icon {
 	width: 40px !important;
-	margin: 0px 10px 0px 30px;
+	margin: 0px 10px 0px 40px;
+}
+
+.card-icon {
+	width: 40px !important;
+	margin: 20px 10px 0px 40px;
 }
 
 .bold {
@@ -445,7 +459,7 @@ a, a:visited {
 }
     
 
-.flex-content {
+.flex-content, .flex-logos {
 	width: 100%;
 	margin: auto;
     -webkit-display: flex;
@@ -477,6 +491,10 @@ a, a:visited {
     
     h1{font-size: 1.7em;}
     p{font-size: 1.2em;}
+    
+    .small-hide{
+        display: none;
+    }
 }
 
 @media (max-width: 700px) {
@@ -489,6 +507,7 @@ a, a:visited {
     }
     
     
+    
 }
 
 @media (max-width: 800px) {
@@ -496,6 +515,12 @@ a, a:visited {
     .info-icon {
 		margin-top: 30px;
 		margin-bottom: -20px;
+		margin-left: 40px;
+	}
+    
+    .card-icon {
+		margin-top: 10px;
+		margin-bottom: 00px;
 		margin-left: 40px;
 	}
     
@@ -511,8 +536,15 @@ a, a:visited {
         width: 100%:
     }
     
-    .flex-content {
-    flex-direction: column;
+    
+    
+    .flex-content{
+        flex-direction: column;
+    }
+    
+    .flex-logos {
+        flex-wrap: wrap;
+        margin: auto;
     }
 }
 
@@ -520,8 +552,12 @@ a, a:visited {
 	
     .home {
 		margin: 0px 100px;
-		height: 80vh;
+		height: 20vh;
 	}
+    
+    .float-image{
+        width: 200px;
+    }
     
 	.header {
 		padding: 100px 0 60px 0;
