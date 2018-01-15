@@ -32,17 +32,8 @@ body {
     font-variant-ligatures: none;
     -webkit-font-variant-ligatures: none;
 	color: #4f4f4f;
-	line-height: 1.5em;
-}
-
-
-.header {
-	background: #fff url('img/header.jpg') no-repeat;
-	background-position: 50% 40%;
-	background-size: 100vw;
-	height: 100px;
-	padding: 30px;
-	vertical-align: middle;
+    font-size: 1.3em;
+	line-height: 2em;
 }
 
 	.blue {
@@ -71,6 +62,7 @@ body {
 		color: #fff;
 		text-shadow: 0px 0px 20px #666;
 		vertical-align: middle;
+        line-height: 3em;
 	}
 
 h3{
@@ -84,7 +76,8 @@ h3{
 /* STRIPS & CONTENT */
 .strip{
     background-color: ;
-    padding: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .content {
@@ -190,27 +183,31 @@ footer {
 
 /* HOMEPAGE STYLING */
 
-.body{
-    margin-top: -21px;
-}
+/*
+.body{margin-top: -21px;}
+*/
 
-
-.splash{
-    color: #fafafa;
-    opacity: 0.8;
-    background-color: #1f7bb9;
-}
 
 .small-hide{
     display:block;
 }
 
 .home {
-	width: 80%;
-	max-width: 800px;
-	height: 20vh;
-	margin: 30px;
-    
+    color: #fafafa;
+    opacity: 0.8;
+    background-color: #1f7bb9;
+    padding: 30px;
+}
+
+.home h1 {
+    font-size: 2.3em;
+    line-height: 1.3em;
+	max-width: 450px;
+}
+
+.intro {
+	max-width: 360px;
+    font-size: 1.6em;
 }
 
 .float-image{
@@ -251,9 +248,7 @@ footer {
     100% { opacity:1; }
 }
 
-.intro {
-	max-width: 470px;
-}
+
 
 /* CHEVRON */
 
@@ -446,7 +441,9 @@ input[type=submit]:hover {
 
 .bold {
 	font-weight: 600;
-	font-size: 16px;
+    font-size: 1.1em;
+    line-height: 2em;
+    opacity: 0.9;
 }
 
 .quote {
@@ -489,8 +486,8 @@ a, a:visited {
     width: 78%;
     }
     
-    h1{font-size: 1.7em;}
-    p{font-size: 1.2em;}
+    h1{font-size: 1.7em; line-height: 1.5;}
+    p{font-size: 1.3em;}
     
     .small-hide{
         display: none;
@@ -549,19 +546,10 @@ a, a:visited {
 }
 
 @media (min-width: 540px) {
-	
-    .home {
-		margin: 0px 100px;
-		height: 20vh;
-	}
-    
+
     .float-image{
         width: 200px;
     }
-    
-	.header {
-		padding: 100px 0 60px 0;
-	}
     
 	.logo {
 		width: 150px;
@@ -586,8 +574,8 @@ a, a:visited {
     
 	h1 { font-size: 2em; }
 	h2 { font: bold 2.2em/1em 'Calibre Bold'; }
-    h3{font-size: 1.1em;}
-	p { font-size: 1.2em; }
+    h3{font-size: 1.5em;}
+	p { font-size: 1.4em; }
 
     
     
