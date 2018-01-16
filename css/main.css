@@ -642,18 +642,19 @@ a, a:visited {
     float: right;
 }
     
-        .press{
-        width: calc(33.3333% - 2rem);
-        float: left;
-          margin: 1rem;
-    }
-    
+        
 }
 
 @media (min-width: 800px) {
     .card{
     width: 32%;
 }  
+    .press{
+        width: calc(33.3333% - 2rem);
+        float: left;
+          margin: 1rem;
+    }
+    
     
 
 }
