@@ -645,7 +645,7 @@ a, a:visited {
         
 }
 
-@media (min-width: 800px) {
+@media screen and (min-width: 800px) {
     .card{
     width: 32%;
 }  
