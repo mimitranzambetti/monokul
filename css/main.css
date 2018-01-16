@@ -464,6 +464,48 @@ a, a:visited {
 	text-decoration: none;
     color: #000;
 }
+
+.articles a:hover{
+    text-decoration: none;
+}
+/* PRESS CARDS */
+.press {
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+	box-shadow: 0 0 2px #ddd;
+	display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    min-height: 520px;
+    
+}
+
+    .press img 
+    { margin-bottom:0px; width: 100%; vertical-align: middle; }
+
+    .press h2{
+        color: #333333;
+        font-size: 1.6em;
+        font-family: 'Marion Regular';
+    font-variant-ligatures: none;
+    -webkit-font-variant-ligatures: none;
+        letter-spacing: .4pt;
+        padding: 0px 20px;
+    }
+
+.press p{
+    padding: 0px 20px;
+    line-height: 1.3em;
+}
+
+	.press:hover {
+		border-bottom: 1px solid #bbb;
+		box-shadow: 0 0 2px #bbb;
+        
+	}
+
+
+
     
 
 .flex-content, .flex-logos {
@@ -599,6 +641,12 @@ a, a:visited {
     .right-bio{
     float: right;
 }
+    
+        .press{
+        width: calc(33.3333% - 2rem);
+        float: left;
+          margin: 1rem;
+    }
     
 }
 
