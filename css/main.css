@@ -21,6 +21,35 @@
     format('truetype');
 }
 
+
+@font-face {
+	font-family: 'SF Regular';
+	src: url('../fonts/SFUIDisplay/SF-UI-Display-Regular.otf')
+    format('opentype');   
+}
+
+@font-face {
+	font-family: 'SF Light';
+	src: url('../fonts/SFUIDisplay/SF-UI-Display-Light.otf')
+    format('opentype');   
+}
+
+@font-face {
+	font-family: 'Atlas Grotesk Regular';
+	src: 
+    url('../fonts/AtlasGrotesk/AtlasGrotesk-Regular.otf')
+    format('opentype');
+
+}
+
+@font-face {
+	font-family: 'Atlas Grotesk Medium';
+	src: 
+    url('../fonts/AtlasGrotesk/AtlasGrotesk-Medium.otf')
+    format('opentype');
+
+}
+
 /* BODY & HEADERS*/
 
 body {
@@ -28,11 +57,12 @@ body {
     min-width: 340px;
 	background: #f8f8f8;
     background-size: 350vw;
-	font-family: 'Marion Regular';
+	font-family: 'SF Light';
+    letter-spacing: 0.2pt;
     font-variant-ligatures: none;
     -webkit-font-variant-ligatures: none;
 	color: #4f4f4f;
-    font-size: 1.3em;
+    font-size: 1.2em;
 	line-height: 2em;
 }
 
@@ -74,13 +104,17 @@ body {
         font-size: 2.5em;
         line-height: 3em;
 	}
+h1{
+    font-family: 'Atlas Grotesk Medium'
+}
 
-h3{
-    font-family: 'Calibre Semibold';
+h3 {
+    font-family: 'Atlas Grotesk Medium';
     text-transform: uppercase;
     letter-spacing: 2px;
     opacity: 0.6;
     font-size: 1em;
+    line-height: 1.4em;
 }
 
 /* STRIPS & CONTENT */
@@ -103,7 +137,7 @@ nav, footer {
 	padding: 15px 30px;
     width: 100%;
 	background: #fff;
-    font-family: 'Calibre Semibold';
+    font-family: 'Atlas Grotesk Medium';
 }
 
 	.navlinks a {
@@ -365,7 +399,7 @@ footer {
 /* BUTTONS */
 input[type=submit]{
     width: 74%;
-    font-family: 'Calibre Semibold';
+    font-family: 'Atlas Grotesk Medium';
     text-transform: uppercase;
 	letter-spacing: 2px;
     font-size: 8pt;
@@ -398,7 +432,7 @@ input[type=submit]:hover {
     padding: 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-size: 10pt;
-    font-family: 'Marion Regular';
+    font-family: 'SF Light';
     text-align: center;
 }
 
@@ -452,9 +486,11 @@ input[type=submit]:hover {
 .bold {
 	font-weight: 600;
     font-size: 1.1em;
-    line-height: 2em;
+    line-height: 1.3em;
     opacity: 0.9;
+    font-family: 'Atlas Grotesk Medium';
 }
+
 
 .quote {
 	opacity: .5;
@@ -476,7 +512,8 @@ a, a:visited {
 	display: block;
     width: 100%;
     margin-bottom: 20px;
-    min-height: 520px;
+    min-height: 570px;
+    padding: 0px 0px 20px;
     
 }
 
@@ -485,18 +522,23 @@ a, a:visited {
 
     .press h2{
         color: #333333;
-        font-size: 1.6em;
-        font-family: 'Marion Regular';
-    font-variant-ligatures: none;
-    -webkit-font-variant-ligatures: none;
+        font-family: 'Atlas Grotesk Medium';
+        font-variant-ligatures: none;
+        -webkit-font-variant-ligatures: none;
         letter-spacing: .4pt;
-        padding: 0px 20px;
+        padding: 0px 40px;
+        line-height: 1.5em;
+        font-size: 1.4em;
     }
 
 .press p{
-    padding: 0px 20px;
-    line-height: 1.3em;
+    padding: 0px 40px;
+    line-height: 1.6em;
+    font-size: 1.3em;
+    margin-top: 5px;
 }
+
+
 
 	.press:hover {
 		border-bottom: 1px solid #bbb;
@@ -538,7 +580,7 @@ a, a:visited {
     width: 78%;
     }
     
-    h1{font-size: 1.7em; line-height: 1.5;}
+    h1 {font-size: 1.7em; line-height: 1.5;}
     p{font-size: 1.3em;}
     
     .small-hide{
@@ -568,7 +610,7 @@ a, a:visited {
 	}
     
     .card-icon {
-		margin-top: 10px;
+		margin-top: 40px;
 		margin-bottom: 00px;
 		margin-left: 40px;
 	}
@@ -625,7 +667,7 @@ a, a:visited {
     }
     
 	h1 { font-size: 2em; }
-	h2 { font: bold 2.2em/1em 'Calibre Bold'; }
+	h2 { font: bold 2.2em/1em 'Atlas Grotesk Medium'; }
     h3{font-size: 1.5em;}
 	p { font-size: 1.4em; }
 
